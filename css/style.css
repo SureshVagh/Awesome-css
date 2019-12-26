@@ -1,39 +1,36 @@
 body,
 html {
     margin: 0;
-    height: 100%;
     width: 100%;
 }
 
 * {
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 .header {
     width: 100%;
-    height: 100%;
     background-image: linear-gradient(to right, #fe702e, #f73a60);
     min-height: 600px;
 }
 
 .header-width {
-    width: 82.50%;
+    width: 80%;
     margin: auto;
-    padding: 27px 0px 0px;
+    padding: 25px 0px 0px;
     overflow: auto;
 }
 
 .app-logo {
     width: 40%;
     float: left;
-    text-decoration: none;
     position: relative;
     margin: 9px 0px 0px;
 }
 
 .app-name {
     font-size: 24px;
-    text-decoration: none;
     color: #FFFFFF;
     position: absolute;
     padding-top: 8px;
@@ -46,21 +43,529 @@ html {
 
 .nav {
     width: 60%;
-    float: right;
-    margin-bottom: 0;
-}
+    float: left;
+    text-align: right;
 
-.nav-content {
-    margin-left: auto;
 }
 
 .nav-items {
+    margin: 5px 0px;
     display: inline-block;
+
 }
 
 .nav-item-name {
-    text-decoration: none;
+    line-height: 1.6;
+    padding: 14px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: .8;
+    color: #FFFFFF;
+    font-family: "'Roboto", "Helvetica", Arial, sans-serif;
+}
+
+.nav-item-download {
+    line-height: 1.6;
+    padding: 12px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: 1.5px solid white;
+    border-radius: 22px;
+    font-family: "'Roboto", "Helvetica", Arial, sans-serif;
+}
+
+.home-page-width {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0px 96px;
+    overflow: auto;
+}
+
+.home-content {
+    width: 60%;
+    float: left;
+
+}
+
+.app-title {
+    line-height: 54px;
+    font-size: 24px;
+    margin: 33px 0px 20px 0px;
+    letter-spacing: 2px;
     color: #FFFFFF;
     font-family: "Dosis", "Helvetica", Arial, sans-serif;
-    letter-spacing: ;
+}
+
+.home-paregraph {
+    font-size: 15px;
+    line-height: 1.5em;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    font-family: "'Roboto", "Helvetica", Arial, sans-serif;
+    padding-right: 365px;
+}
+
+.home-items {
+    margin: 0px 0px 16px;
+    padding: 4px 0;
+    color: #FFFFFF;
+    font-family: "'Roboto", "Helvetica", Arial, sans-serif;
+    font-size: 14px;
+}
+
+.item-1 {
+    padding: 8px 0px;
+}
+
+.span-li {
+    padding-left: 10px;
+}
+
+.explor-btn {
+    margin-top: 50px;
+    padding: 8px 0;
+    width: 50%;
+}
+
+.btn-exploring {
+    border: 1.5px solid #FFFFFF;
+    border-radius: 30px;
+    padding: 10px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: "'Roboto", "Helvetica", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600px;
+
+}
+
+.home-picture {
+    width: 40%;
+    float: right;
+}
+
+.img {
+    width: 100%;
+}
+
+.section-1 {
+    width: 100%;
+    padding: 80px 0;
+}
+
+.sec1--width {
+    width: 80%;
+    margin: auto;
+    padding: 25px 0px 0px;
+    overflow: auto;
+}
+
+.features {
+    width: 33.33%;
+    float: left;
+    margin: 15px 0px;
+    padding: 0 5px;
+}
+
+.features-img {
+    float: left;
+}
+
+.features-detail {
+    width: 75%;
+    float: right;
+}
+
+.features-title {
+    padding: 0 0 24px;
+    font-size: 22.4px;
+    font-weight: 600;
+    font-family: "Dosis", "Helvetica", Arial, sans-serif;
+    color: #111111;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+}
+
+.features-con {
+    margin: 0 0 5px;
+    color: #868E96;
+    font-family: "'Roboto", "Helvetica", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.line {
+    width: 80%;
+    padding: 0.5px 0;
+    background-color: #f1eae0;
+    margin: auto;
+}
+
+.section-2 {
+    width: 100%;
+}
+
+.section-2-width {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0px 96px;
+    overflow: auto;
+}
+
+.mobile-2-picture {
+    width: 40%;
+    float: left;
+}
+
+.img {
+    width: 100%;
+}
+
+.sec-2-content {
+    width: 60%;
+    padding: 0 15px;
+    float: right;
+}
+
+.sec-2-title {
+    font-size: 19.2px;
+    margin: 30px 0 8px;
+    letter-spacing: 2px;
+    color: #111111;
+    font-family: "Dosis", "Helvetica", Arial, sans-serif;
+}
+
+.sec-2-paregraph {
+    font-size: 15px;
+    line-height: 1.5em;
+    padding: 8px 0 5px;
+    color: #66615B;
+    font-family: "'Roboto", "Helvetica", Arial, sans-serif;
+    padding-right: 80px;
+}
+
+.sec-2-items {
+    margin: 0px 0px 16px;
+    padding: 4px 0;
+    color: #66615B;
+    list-style: none;
+    font-family: "Roboto", "Helvetica", Arial, sans-serif;
+    font-size: 14px;
+}
+
+.section-3 {
+    width: 100%;
+    padding: 70px 0px;
+    background-color: #f5fafd;
+}
+
+.sec-3-width {
+    width: 80%;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+.sec-3-title {
+    text-align: center;
+    padding: 0 0 16px;
+    margin: 30px 0 25px;
+    font-size: 39px;
+    font-family: "Dosis", "Helvetica", Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.sec-3-con {
+    margin: auto;
+    font-size: 15px;
+    text-align: center;
+    padding: 0 0 48px;
+}
+
+p1 {
+    font-weight: 550;
+    font-size: 15px;
+    color: #66615b;
+    line-height: 1.5em;
+    font-family: "Roboto", "Helvetica", Arial, sans-serif;
+}
+
+.sec-3-image {
+    width: 100%;
+    padding: 0 0 0px;
+    margin: 0 0 48px;
+    box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.section-4 {
+    width: 80%;
+    overflow: auto;
+    margin: 70px auto;
+}
+
+.package-container {
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+}
+
+.package-1 {
+    width: 100%;
+    background-color: #f5fafd;
+    font-family: "Roboto", "Helvetica", Arial, sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    color: #868E96;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px -1px;
+}
+
+.package {
+    width: 100%;
+}
+
+.basic-sec {
+    font-size: 18.9px;
+    font-weight: 600;
+    margin: 0 0 8px;
+    color: #333333;
+    padding: 20px 0 0;
+    font-family: "Dosis", "Helvetica", Arial, sans-serif;
+}
+
+.price-sec {
+    background-color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 600;
+    margin: auto;
+    color: #333333;
+    padding: 25px 5px;
+    font-family: "Dosis", "Helvetica", Arial, sans-serif;
+}
+
+.dollar-sign {
+    font-size: 20px;
+}
+
+.price {
+    font-size: 37px;
+}
+
+.month {
+    font-size: 20px;
+}
+
+.facilities {
+    font-size: 14px;
+    padding: 20px 0 0;
+}
+
+.package-buy {
+    width: 100%;
+    padding: 25px;
+}
+
+.start-trial {
+    font-size: 13px;
+    color: #868e96;
+    font-weight: 595;
+    padding: 10px;
+    margin: 60px 0px 5px 0px;
+}
+
+.start-trial a {
+    color: #868E89;
+
+}
+
+.buy-now {
+    width: 50%;
+    color: black;
+    font-size: 12px;
+    padding: 10px 18px;
+    margin: auto;
+    border: 1.5px solid #66615b;
+    border-radius: 30px;
+}
+
+.buy-now a {
+    color: #66615B;
+}
+
+.package-2 {
+    width: 100%;
+    background-color: #ffffff;
+    font-family: "Roboto", "Helvetica", Arial, sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    color: #868E96;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px -1px;
+}
+
+.price-sec-2 {
+    background-image: linear-gradient(to right, #fd6c31, #f73c5b);
+    font-size: 28px;
+    font-weight: 600;
+    margin: auto;
+    color: #ffffff;
+    padding: 25px 5px;
+    font-family: "Dosis", "Helvetica", Arial, sans-serif;
+}
+
+.buy-now-2 {
+    width: 50%;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px 18px;
+    margin: auto;
+    background-image: linear-gradient(to right, #fd6c31, #f73c5b);
+    border-radius: 30px;
+}
+
+.buy-now-2 a {
+    color: #FFFFFF;
+}
+
+.section-5 {
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.sec-5-width {
+    width: 80%;
+    margin: auto;
+}
+
+.customer-container {
+    overflow: auto;
+    margin: 30px auto;
+}
+
+.customer-review {
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+
+.review {
+    background-color: #f5fafd;
+    width: 100%;
+    padding: 32px;
+    color: #F5FAFD;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 10px -4px;
+    line-height: 1.5;
+}
+
+.review-content {
+    color: #66615B;
+    font-size: 15px;
+    font-family: "Roboto", "Helvetica", Arial, sans-serif;
+    margin: 0 0 5px;
+}
+
+.customer-content {
+    padding: 16px 0 0;
+    overflow: auto;
+}
+
+.customer-image {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.customer-detail {
+    float: left;
+    padding: 16px 15px 0;
+}
+
+.customer-name {
+    padding: 0 0 8px;
+    font-size: 18.9px;
+    color: #111111;
+    font-family: "Dosis", "Helvetica", Arial, sans-serif;
+    font-weight: 600;
+}
+
+.customer-job-detail {
+    font-size: 15px;
+    margin: 0 0 5px;
+    color: #868E98;
+    font-family: "Roboto", "Helvetica", Arial, sans-serif;
+}
+
+.download {
+    background-image: linear-gradient(to right, #fe6f2f, #f73a5f);
+}
+
+.download-width {
+    padding: 70px 0;
+    width: 80%;
+    margin: auto;
+}
+
+.download-title {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 39.2px;
+    padding: 0 0 48px;
+    margin: 30px auto 0;
+    font-family: "Dosis", "Helvetica", Arial, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.download-container {
+    width: 100%;
+    overflow: auto;
+}
+
+.different-devices {
+    border-radius: 12px;
+    width: 33.33%;
+    padding: 0 0 16px;
+    float: left;
+}
+
+.download-content {
+    padding: 16px 0 0;
+    overflow: auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.device-image {
+    width: 50%;
+    float: left;
+}
+
+.download-detail {
+    width: 50%;
+    float: left;
+    padding: 16px 15px 0;
+}
+
+.download-name {
+    padding: 0 0 8px;
+    font-size: 18.9px;
+    color: #111111;
+    font-family: "Dosis", "Helvetica", Arial, sans-serif;
+    font-weight: 600;
+}
+
+.download-playstore {
+    font-size: 15px;
+    margin: 0 0 5px;
+    color: #868E98;
+    font-family: "Roboto", "Helvetica", Arial, sans-serif;
 }
